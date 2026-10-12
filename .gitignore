@@ -1,0 +1,27 @@
+# STM32CubeIDE Build Artifacts
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.o
+*.d
+*.su
+
+# Arduino & PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+*.tmp
+
+# Editor & OS files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.DS_Store
+Thumbs.db
+*~
+
