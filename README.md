@@ -1,4 +1,4 @@
-﻿# STM32F407 — HAL Peripheral Projects
+# STM32F407 — HAL Peripheral Projects
 
 A collection of STM32 firmware projects built using STM32Cube HAL libraries 
 and STM32CubeMX configuration, developed during my embedded systems work 
@@ -45,6 +45,7 @@ STM32CubeIDE, STM32CubeMX, STM32Cube HAL Drivers
 | Project | Description |
 |---|---|
 | Smart_Visitor_Head_Counter | IR beam-break sensor based visitor counting system with real-time LCD display output |
+| STM32_ESP32_WiFi_Network_Selector | Dual-MCU real-time 2.4 GHz Wi-Fi scanning and connection system with OLED UI and tactile navigation |
 
 ---
 
@@ -52,9 +53,3 @@ STM32CubeIDE, STM32CubeMX, STM32Cube HAL Drivers
 1. Open the .ioc file in STM32CubeMX to view/regenerate pin configuration
 2. Import the project into STM32CubeIDE
 3. Build and flash to an STM32F407-based board (e.g., STM32F4 Discovery)
-
----
-
-## Related Project
-For the complete dual-MCU WiFi scanning system (STM32 + ESP32), see:
-[STM32-ESP32 WiFi Selector](https://github.com/Abhicm14/STM32-Project)
